@@ -1,4 +1,4 @@
-# Awesome books
+# Awesome books ES6
 
 <a name="readme-top"></a>
 
@@ -6,7 +6,7 @@
 
   <br/>
 
-  <h3><b>Awesome books</b></h3>
+  <h3><b>Awesome books ES6</b></h3>
 
 </div>
 
@@ -31,9 +31,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Awesome books <a name="about-project"></a>
+# 📖 Awesome books ES6 <a name="about-project"></a>
 
-**Awesome books**
+**Awesome books Es6**
 is the library website that allows users to add and remove books from the list. There is a page for a list of books and the page where you can add any book into the library. There is also contact details whenever you want to contact us.
 
 ## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript</a>
@@ -57,7 +57,7 @@ is the library website that allows users to add and remove books from the list. 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://geekyhacks.github.io/AwesomeBook/)
+- [Live Demo Link](https://github.com/yusufyusie/Awesome_Books_ES6.git/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +67,7 @@ To get a local copy up and running, follow these steps:
 
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory[folder] to which you want to clone the repository to
-- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/AwesomeBook.git
+- [Copy & Paste] git clone you find in the code button https://github.com/yusufyusie/Awesome_Books_ES6.git
 
 ### Prerequisites
 
@@ -81,13 +81,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/GeekyHacks/AwesomeBook.git
+- git clone https://github.com/yusufyusie/Awesome_Books_ES6.git
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/GeekyHacks/AwesomeBook.git
+  git clone https://github.com/yusufyusie/Awesome_Books_ES6.git
 
 ```
 
@@ -106,15 +106,11 @@ Must-Install-Project-with-the-Following-Programmes:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **GeekyHacks**
-    **Bhekisile Jozi**
+👤 **Yesuf Fenta**
 
-- GitHub: [Geekyhacks](https://github.com/GeekyHacks)
-- Twitter: [Geekydart](https://twitter.com/GeekyDart)
-- LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/abdullah-nasser-711625268/)
-
-- GitHub: [@githubhandle](https://github.com/bhekisile)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhekisile-jozi-b9823369/)
+- GitHub: [Geekyhacks](https://github.com/yusufyusie)
+- Twitter: [Geekydart](https://twitter.com/yusufyusiee)
+- LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/yusufyusie/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -128,7 +124,7 @@ Must-Install-Project-with-the-Following-Programmes:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/GeekyHacks/AwesomeBook/issues).
+Feel free to check the [issues page](https://github.com/yusufyusie/Awesome_Books_ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
