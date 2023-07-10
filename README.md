@@ -108,9 +108,9 @@ Must-Install-Project-with-the-Following-Programmes:
 
 👤 **Yesuf Fenta**
 
-- GitHub: [Geekyhacks](https://github.com/yusufyusie)
-- Twitter: [Geekydart](https://twitter.com/yusufyusiee)
-- LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/yusufyusie/)
+- GitHub: [yusufyusie](https://github.com/yusufyusie)
+- Twitter: [yusufyusiee](https://twitter.com/yusufyusiee)
+- LinkedIn: [yusufyusie](https://www.linkedin.com/in/yusufyusie/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
