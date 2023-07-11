@@ -3,7 +3,7 @@ export default class LocalStore {
         this.newId = this.storeBooks().length + 1;
 
     }
-    static storeBooks() {
+    storeBooks = () => {
         let books;
         const storeData = localStorage.getItem('local');
         if (!storeData) {
@@ -14,11 +14,17 @@ export default class LocalStore {
         return books;
       }
     
-      static addBooks(addNewBook) {
+      addBooks = (book) => {
+         const addNewBook = {
+            id: this.newId,
+            title: book.title,
+            author: book.author,
+         };
         const books = LocalStore.storeBooks();
         if (books) {
           books.push(addNewBook);
           localStorage.setItem('local', JSON.stringify(books));
+          this.newId += 1;
         }
       }
 }
