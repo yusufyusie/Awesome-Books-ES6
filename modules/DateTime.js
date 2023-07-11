@@ -1,4 +1,4 @@
-function timeDisplay() {
+export default function timeDisplay() {
     const myDate = new Date();
   
     const daysList = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

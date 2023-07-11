@@ -1,4 +1,7 @@
-
+import Book from "../modules/Book";
+import UI from "../modules/ui";
+import timeDisplay from "../modules/DateTime";
+import { store } from "../modules/LocalStore";
 const navList = document.querySelector('#nav-list');
 const navAdd = document.querySelector('#nav-add');
 const navContact = document.querySelector('#nav-contact');
@@ -16,7 +19,7 @@ let newId = 0;
 
 addButton.addEventListener('click', (e) => {
   e.preventDefault();
-  const books = Book.storeBooks();
+  const books = store.storeBooks();
   const newTitle = titleInput.value;
   const newAuthor = authorInput.value;
   let newId;
@@ -28,8 +31,8 @@ addButton.addEventListener('click', (e) => {
   }
   const addNewBook = new Book(newTitle, newAuthor, newId);
   if (newTitle.length !== 0 && newAuthor.length !== 0) {
-    Book.addBooks(addNewBook);
-    Book.addBookToList(addNewBook);
+    store.addBooks(addNewBook);
+    UI.addBookToList(addNewBook);
     errorMsg.style.display = 'none';
   } else {
     errorMsg.style.display = 'block';
@@ -41,14 +44,14 @@ bookDisplay.addEventListener('click', (e) => {
   e.preventDefault();
   if (e.target.className === 'remove-btn') {
     const { id } = e.target;
-    let books = Book.storeBooks();
+    let books = store.storeBooks();
     books = books.filter((bk) => JSON.stringify(bk.id) !== id);
     localStorage.setItem('local', JSON.stringify(books));
-    Book.deleteBookFromList(e.target);
+    UI.deleteBookFromList(e.target);
   }
 });
 
-document.addEventListener('DOMContentLoaded', Book.showBooks);
+document.addEventListener('DOMContentLoaded', UI.showBooks);
 
 navList.addEventListener('click', () => {
   main.style.display = 'block';

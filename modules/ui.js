@@ -1,5 +1,5 @@
 import { store } from "./LocalStore";
-class UI {
+export default class UI {
     constructor(){
 
     }
