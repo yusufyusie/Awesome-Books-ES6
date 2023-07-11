@@ -1,4 +1,4 @@
-class LocalStore {
+export default class LocalStore {
     constructor() {
         this.newId = this.storeBooks().length + 1;
 
@@ -22,3 +22,4 @@ class LocalStore {
         }
       }
 }
+export const store = new LocalStore();

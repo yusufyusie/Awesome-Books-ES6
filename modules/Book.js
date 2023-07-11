@@ -1,4 +1,4 @@
-class Book {
+export default class Book {
     static arraylist = [];
   
     constructor(title, author, id) {
