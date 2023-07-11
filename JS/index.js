@@ -15,7 +15,6 @@ const errorMsg = document.querySelector('.error-message');
 const main = document.querySelector('.section');
 const form = document.querySelector('.add-book-form');
 const contact = document.querySelector('.contact-info');
-let newId = 0;
 
 addButton.addEventListener('click', (e) => {
   e.preventDefault();
