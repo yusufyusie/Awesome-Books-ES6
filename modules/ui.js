@@ -1,16 +1,17 @@
-import { store } from "./LocalStore";
+/* eslint-disable import/newline-after-import */
+import LocalStore, { store } from './LocalStore.js';
 export default class UI {
     constructor(){
 
     }
-    static showBooks() {
-        const books = store.storeBooks();
+    static showBooks = () => {
+        const books = LocalStore.storeBooks();
         books.forEach((addNewBook) => {
           UI.addBookToList(addNewBook);
         });
       }
     
-      static addBookToList(addNewBook) {
+      static addBookToList = (addNewBook) => {
         addNewBook.id = newId;
         const bookInfo = `
           <div id="${newId}">
@@ -27,3 +28,6 @@ export default class UI {
         e.parentElement.remove();
       }
 }
+
+let newId = 0;
+const bookDetail = document.querySelector('.books-detail');

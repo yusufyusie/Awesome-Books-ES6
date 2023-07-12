@@ -1,9 +1,9 @@
 export default class LocalStore {
     constructor() {
-        this.newId = this.storeBooks().length + 1;
+        // this.newId = this.storeBooks().length + 1;
 
     }
-    storeBooks = () => {
+    static storeBooks = () => {
         let books;
         const storeData = localStorage.getItem('local');
         if (!storeData) {
@@ -14,17 +14,11 @@ export default class LocalStore {
         return books;
       }
     
-      addBooks = (book) => {
-         const addNewBook = {
-            id: this.newId,
-            title: book.title,
-            author: book.author,
-         };
+      static addBooks = (addNewBook) => {
         const books = LocalStore.storeBooks();
         if (books) {
           books.push(addNewBook);
           localStorage.setItem('local', JSON.stringify(books));
-          this.newId += 1;
         }
       }
 }
