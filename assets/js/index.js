@@ -5,7 +5,6 @@ import LocalStore, { store } from '../../modules/LocalStore.js';
 const navList = document.querySelector('#nav-list');
 const navAdd = document.querySelector('#nav-add');
 const navContact = document.querySelector('#nav-contact');
-const timeInfo = document.querySelector('#time-info');
 const titleInput = document.querySelector('.title-book');
 const authorInput = document.querySelector('.author-book');
 const addButton = document.querySelector('.add-btn');

@@ -1,4 +1,4 @@
-export default function timeDisplay() {
+const timeDisplay  = () => {
     const myDate = new Date();
   
     const daysList = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -30,3 +30,5 @@ export default function timeDisplay() {
     timeInfo.innerHTML = `${today} ${currentTime}`;
   }
   
+const timeInfo = document.querySelector('#time-info');
+export default timeDisplay;
