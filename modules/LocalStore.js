@@ -1,18 +1,15 @@
 export default class LocalStore {
-    constructor() {
-
-    }
     static storeBooks = () => {
-        let books;
-        const storeData = localStorage.getItem('local');
-        if (!storeData) {
-          books = [];
-        } else {
-          books = JSON.parse(storeData);
-        }
-        return books;
+      let books;
+      const storeData = localStorage.getItem('local');
+      if (!storeData) {
+        books = [];
+      } else {
+        books = JSON.parse(storeData);
       }
-    
+      return books;
+    }
+
       static addBooks = (addNewBook) => {
         const books = LocalStore.storeBooks();
         if (books) {

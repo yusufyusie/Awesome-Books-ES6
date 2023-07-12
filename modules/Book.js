@@ -6,4 +6,4 @@ export default class Book {
       this.author = author;
       this.id = id;
     }
-  }
+}

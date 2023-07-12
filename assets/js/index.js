@@ -1,6 +1,6 @@
-import Book from '../../modules/book.js';
+import Book from '../../modules/Book.js';
 import UI from '../../modules/ui.js';
-import LocalStore, { store } from '../../modules/LocalStore.js';
+import LocalStore from '../../modules/LocalStore.js';
 
 const navList = document.querySelector('#nav-list');
 const navAdd = document.querySelector('#nav-add');
@@ -68,7 +68,7 @@ navContact.addEventListener('click', () => {
   contact.style.display = 'block';
 });
 
-const  timeDisplay = () => {
+const timeDisplay = () => {
   const myDate = new Date();
 
   const daysList = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -98,6 +98,6 @@ const  timeDisplay = () => {
   const currentTime = `${hours}:${minutes} ${amOrPm}`;
 
   timeInfo.innerHTML = `${today} ${currentTime}`;
-}
+};
 
 document.addEventListener('DOMContentLoaded', timeDisplay);
