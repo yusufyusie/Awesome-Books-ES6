@@ -1,4 +1,3 @@
-/* eslint-disable import/newline-after-import */
 import LocalStore, { store } from './LocalStore.js';
 export default class UI {
     constructor(){
