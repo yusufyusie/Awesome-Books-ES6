@@ -1,6 +1,5 @@
 export default class Book {
     static arraylist = [];
-  
     constructor(title, author, id) {
       this.title = title;
       this.author = author;

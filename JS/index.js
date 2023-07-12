@@ -1,5 +1,5 @@
-import Book from "../modules/Book";
-import UI from "../modules/ui";
+import Book from "./modules/book.js";
+import UI from "./modules/ui.js";
 import timeDisplay from "../modules/DateTime";
 import { store } from "../modules/LocalStore";
 const navList = document.querySelector('#nav-list');
